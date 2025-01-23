@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+}
+.background-container {
+    height:500px;
+    position: relative;
+    background-image: url('black-and-white-illustration-of-a-barbell-vector.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.text-overlay {
+    top:80px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: helvetica;
+}
+
+.text-overlay h1 {
+    margin: 0;
+    font-size: 38px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
+section{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.day{
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+.image{
+    height:300px;
+    width: auto;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
